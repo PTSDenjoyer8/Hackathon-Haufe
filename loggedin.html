@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let's Patry</title>
+    <link rel="stylesheet" href="styleLogged.css" />
+</head>
+<header>
+    <nav class="nav-interface">
+      <a href="index.html" class="navbar-logo">
+        <img src="" id="logo" />
+      </a>
+      <div class="navbar-toggle" id="mobile-interface">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      <ul class="navbar-menu">
+        <li class="navbar-item">
+          <a href="index.html" class="navbar-link">Home</a>
+        </li>
+        <li class="navbar-item">
+          <a href="createParty.html" class="navbar-link">Create Patry</a>
+        </li>
+        <li class="navbar-item">
+          <a href="toParties.html" class="navbar-link">All Parties</a>
+        </li>
+        <li class="navbar-item">
+          <a href="" class="navbar-link">Chat</a>
+        </li>
+        <li class="navbar-item">
+          <a href="" id="cont" class="navbar-link"></a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+<body>
+  <div id = "main" class="vantaModel">
+    <h1>Create Your Dream Party</h1>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
+  <script>
+    VANTA.BIRDS({
+      el: "#main",
+      mouseControls: true,
+      touchControls: true,
+      gyroControls: false,
+      minHeight: 673, 
+      minWidth: 200.00,
+      scale: 1.00,
+      scaleMobile: 3.00
+    })
+
+    const numeCont = localStorage.getItem('nume')
+document.getElementById('cont').textContent = numeCont;
+    </script>
+</body>
+</html>

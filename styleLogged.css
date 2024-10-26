@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Kumbh Sans", sans-serif;
+  }
+  
+  body{
+    margin: 0;
+  }
+
+  h1{
+    background-image: linear-gradient(100deg, pink 100%, #6E1D6B 100%);
+    position: relative;
+    padding-left: 30%;
+    padding-top: 15%;
+    font-size: 120px;
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+
+  #main{
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .nav-interface {
+    background: #A020F0;
+    display: flex;
+    position: sticky;
+    font-size: 1.2rem;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    z-index: 1;
+    margin: 0 auto;
+    padding: 0 50px;
+  }
+  
+  .navbar-logo {
+    position: absolute;
+    left: 15%;
+    cursor: pointer;
+  }
+  #logo {
+    width: 120px;
+    height: auto;
+  }
+  
+  .navbar-menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+  }
+  
+  .navbar-item {
+    height: 80px;
+  }
+  
+  .navbar-link {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 0 2rem;
+    height: 100%;
+  }
+  
+  .navbar-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    width: 100%;
+  }
+  
+  .buttonNav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background: white;
+    color: #F02070;
+  }
+  
+  .buttonNav:hover {
+    background-color: #D397F8;
+  }
+  
+  .navbar-link:hover {
+    color: #F02070;
+  }
+  
+
+  

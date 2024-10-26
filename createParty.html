@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Party</title>
+    <link rel="stylesheet" href="cPartyStyle.css" />
+    <script src="scriptCreate.js" defer></script>
+</head>
+<header>
+    <nav class="nav-interface">
+        <a href="index.html" class="navbar-logo">
+            <img src="" id="logo" />
+        </a>
+        <div class="navbar-toggle" id="mobile-interface">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <ul class="navbar-menu">
+            <li class="navbar-item">
+                <a href="index.html" class="navbar-link">Home</a>
+            </li>
+            <li class="navbar-item">
+                <a href="createParty.html" class="navbar-link">Create Party</a>
+            </li>
+            <li class="navbar-item">
+                <a href="allPartyies.html" class="navbar-link">All Parties</a>
+            </li>
+            <li class="navbar-item">
+                <a href="" class="navbar-link">Chat</a>
+            </li>
+            <li class="navbar-item">
+                <a href="" id="cont" class="navbar-link"></a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<body>
+    <div class="container">
+        <label for="partyName"><b>Party Name</b></label>
+        <input type="text" placeholder="Enter Party Name" id="partyName" name="party_name" required>
+    
+        <label for="date"><b>Date: </b></label>
+        <input type="date" id="date" placeholder="Enter date" name="date" required>
+
+        <label for="location"><b>Location: </b></label>
+        <input type="text" placeholder="Enter Location" id="location" name="location" required>
+
+        <label for="dressingCode"><b>Dressing Code: </b></label>
+        <input type="text" placeholder="Enter Dressing Code" id="dressingCode" name="dressing" required>
+
+        <label for="maxPeople"><b>Max Number of People: </b></label>
+        <input type="number" placeholder="Enter max number of people" id="maxPeople" name="people" required>
+
+        <label for="price"><b>Starting Price: </b></label>
+        <input type="number" placeholder="Enter starting price" id="price" name="price" required>
+
+        <label for="roles">Add Roles: </label>
+        <input type="text" placeholder="Enter the roles, divided by . between" id="roles" name="allRoles" required>
+
+        <label for="partyType"><b>Party Type: </b></label>
+        <select name="partyType" id="partyType">
+            <option value="private">Private</option>
+            <option value="public">Public</option>
+        </select>
+
+        <label for="code">Inviting Code: </label>
+        <input type="text" placeholder="Enter the inviting code" id="code" name="code" required>
+
+        <button id="submitBtn">Create Party</button>
+    </div>
+</body>
+</html>

@@ -1,0 +1,4 @@
+patrick;nu;3122-12-31;arad;a;12;12;buc. buc;public;aaaaa
+patrick;pppp;0004-04-23;fdpf;ofbdbd;8913;382;ojwiohf;public;adsa
+patrick;dadad;4353-02-04;fdsf;fgdh;312;321;fsgdhd;private;2345
+patrick;dec;;grgb;gthg;4543;342;bucatar;public;455
